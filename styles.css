@@ -1,0 +1,403 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #e0e0e0; /* Light gray */
+    text-align: center; /* Center all text in the body */
+}
+
+h1, h2, h3, h4 {
+    margin: 20px 0;
+    color: #2c3e50; /* Dark grayish-blue */
+}
+
+p {
+    margin: 10px 0;
+    color: #7f8c8d; /* Gray */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9; /* Bright blue */
+}
+
+a:hover {
+    color: #1abc9c; /* Soft green */
+}
+
+/* Header Styles */
+header {
+    background: #2980b9; /* Bright blue */
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #3498db; /* Medium blue */
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #2980b9; /* Bright blue */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #1abc9c; /* Soft green */
+}
+
+/* Features Section */
+.features {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark grayish-blue */
+}
+
+.feature-item {
+    display: inline-block;
+    width: 23%;
+    margin: 10px 1%;
+    background: #ecf0f1; /* Very light gray */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.feature-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Center the table */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2980b9; /* Bright blue */
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7; /* Light gray */
+    border-radius: 4px;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #2980b9; /* Bright blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button[type="submit"]:hover {
+    background: #1abc9c; /* Soft green */
+}
+
+form p {
+    text-align: center;
+}
+
+form p a {
+    color: #2980b9; /* Bright blue */
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background: #2980b9; /* Bright blue */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+/* diet plan */
+
+/* General Form Styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Foods Textarea */
+#foods {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #bdc3c7; /* Light gray */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ecf0f1; /* Very light gray */
+}
+
+/* Calories Input */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #bdc3c7; /* Light gray */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ecf0f1; /* Very light gray */
+}
+
+/* Button Styling */
+button {
+    background-color: #2980b9; /* Bright blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1abc9c; /* Soft green */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2980b9; /* Bright blue */
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    background-color: #2980b9; /* Bright blue */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #1abc9c; /* Soft green */
+}
+
+/* workout logs */
+
+/* General Styles for Workout Logs */
+body.workout-logs-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #e0e0e0; /* Light gray */
+}
+
+main.workout-logs-main {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h2.workout-logs-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50; /* Dark grayish-blue */
+}
+
+label.workout-logs-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50; /* Dark grayish-blue */
+}
+
+.workout-logs-select,
+.workout-logs-input,
+.workout-logs-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7; /* Light gray */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button.workout-logs-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2980b9; /* Bright blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.workout-logs-button:hover {
+    background-color: #1abc9c; /* Soft green */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .feature-item {
+        width: 46%;
+    }
+}
+
+@media (max-width: 480px) {
+    .feature-item {
+        width: 96%;
+    }
+}
+
+
+
